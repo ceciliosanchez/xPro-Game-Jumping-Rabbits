@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
     var balls = [];
     var numberOfBalls = 20;
-    var gravity = 0.5;
-    var bounceFactor = 0.8; // Increased bounce factor
+    var gravity = 0.4; // Increased gravity
+    var bounceFactor = 0.9; // Slightly reduced bounce factor
 
     function Ball() {
         var ball = create();
         this.element = ball;
         this.dx = Math.random() * 4 + 1; // Random speed between 1 and 5
-        this.dy = -(Math.random() * 10 + 10); // Random initial upward speed to simulate different jumping heights
+        this.dy = -(Math.random() * 5 + 10); // Reduced initial upward speed
     }
 
     Ball.prototype.updatePosition = function() {
