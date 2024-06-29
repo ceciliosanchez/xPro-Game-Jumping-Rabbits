@@ -21,7 +21,7 @@ rabbits.js: Initializes and animates the rabbits.
 
 ## How to run
 
-Clone the repository.
+Clone the repository.</br>
 Open jumping.html in a web browser.</br>
 Preview: <a href="https://ceciliosanchez.com/github/xpro/jumping_rabbits/jumping.html" target="_blank">Jumping Rabbits</a>
 
