@@ -8,10 +8,10 @@ This project showcases how to create animated rabbit icons in JavaScript that ju
 
 ## Functionality
 
-Rabbit icons start at random positions on the floor and jump around the screen from left to right.
-Each rabbit has a moderate and varied jump height.
-The rabbits change direction and flip horizontally when they reach the screen edges.
-A countryside backdrop enhances the visual experience.
+Rabbit icons start at random positions on the floor and jump around the screen from left to right.</br>
+Each rabbit has a moderate and varied jump height.</br>
+The rabbits change direction and flip horizontally when they reach the screen edges.</br>
+A countryside backdrop enhances the visual experience.</br>
 
 ## Files
 
