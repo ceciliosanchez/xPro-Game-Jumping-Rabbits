@@ -1,7 +1,7 @@
 var create = function() {
     // random x and y
-    var x = Math.random() * (window.innerWidth - 50); // Start at random position
-    var y = window.innerHeight - 50; // Start on the floor
+    var x = Math.random() * (window.innerWidth - 75); // Adjusted for new size
+    var y = window.innerHeight - 75; // Adjusted for new size
 
     // set div attributes
     var div = document.createElement('div');
@@ -9,8 +9,8 @@ var create = function() {
     div.style.position = 'absolute';    
     div.style.left = x + 'px';    
     div.style.top = y + 'px';    
-    div.style.width = '50px';    
-    div.style.height = '50px';
+    div.style.width = '75px';    // Updated width
+    div.style.height = '75px';   // Updated height
 
     // Create rabbit image
     var img = document.createElement('img');
