@@ -22,13 +22,13 @@ document.addEventListener("DOMContentLoaded", function() {
         this.dy += gravity;
 
         // Bounce off the floor
-        if (y >= window.innerHeight - 50) {
-            y = window.innerHeight - 50;
+        if (y >= window.innerHeight - 75) { // Adjusted for new size
+            y = window.innerHeight - 75;   // Adjusted for new size
             this.dy *= -bounceFactor; // Reverse direction and reduce speed due to bounce
         }
 
         // Wrap around the screen horizontally
-        if (x <= 0 || x >= window.innerWidth - 50) {
+        if (x <= 0 || x >= window.innerWidth - 75) { // Adjusted for new size
             this.dx = -this.dx;
 
             // Flip the image horizontally when changing direction
